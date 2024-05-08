@@ -46,6 +46,32 @@ section{
     font-weight: 700;
 }
 /* For mobile devices */
+/* For mobile devices */
 @media only screen and (max-width: 600px) {
-    /* Add your mobile-specific CSS here */
+    /* Adjust font size */
+    h1 {
+        font-size: 30px; /* Reduce the font size for better readability on mobile */
+    }
+    
+    /* Adjust half-width class */
+    .half-width {
+        width: 100%; /* Change width to full for a better mobile experience */
+        margin-left: 0;
+        padding-left: 0;
+        float: none; /* Remove float */
+    }
+
+    /* Adjust image styles */
+    .half-width img {
+        width: 80%; /* Adjust width to better fit mobile screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Adjust link-button styles */
+    .link-button {
+        display: block; /* Change to block for full-width buttons on mobile */
+        text-align: center; /* Center the text in buttons */
+        margin: 10px 0; /* Add top and bottom margin to separate buttons */
+    }
 }
+
